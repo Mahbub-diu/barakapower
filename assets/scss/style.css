@@ -1,0 +1,86 @@
+html,
+body {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  color: #555555;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #f1f2f7;
+}
+table th {
+  font-weight: 700;
+  color: #000000;
+  padding: 9px 12px;
+}
+table td {
+  border: 1px solid #f1f2f7;
+  padding: 9px 12px;
+}
+
+a {
+  color: #ee2028;
+  text-decoration: none;
+  outline: 0;
+  transition: all ease 0.4s;
+}
+a:hover {
+  color: #000000;
+}
+
+button {
+  transition: all ease 0.4s;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+html,
+body {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: $body-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  color: $body-color;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid $border-color;
+  th {
+    font-weight: 700;
+    color: $title-color;
+    padding: 9px 12px;
+  }
+  td {
+    border: 1px solid $border-color;
+    padding: 9px 12px;
+  }
+}
+a {
+  color: $theme-color;
+  text-decoration: none;
+  outline: 0;
+  transition: all ease 0.4s;
+  &:hover {
+    color: $title-color;
+  }
+}
+button {
+  transition: all ease 0.4s;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
