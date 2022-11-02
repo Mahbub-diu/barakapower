@@ -23,3 +23,14 @@
     font-size: 16px;
   }
 }
+@media (min-width: 992px) {
+  .pe-lg-5 {
+    padding-right: 3rem !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .gx-60 {
+    --bs-gutter-x: 60px;
+  }
+}
