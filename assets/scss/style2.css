@@ -416,12 +416,12 @@ p {
   background-color: rgba(0, 0, 0, 0);
 }
 
-section.homebanner-main {
+.homebanner-main {
   width: 100%;
   height: 100%;
 }
-section.homebanner-main .homebanner {
-  background: url("../images/chairman-1.png");
+.homebanner-main .homebanner {
+  background: url("../images/people/chairman-1.png");
   min-height: 1000px;
   width: 100%;
   background-size: cover;
@@ -432,33 +432,40 @@ section.homebanner-main .homebanner {
   flex-direction: column;
   justify-content: center;
 }
-section.homebanner-main .homebanner .homebanner-title-text {
+.homebanner-main .homebanner .homebanner-title-text {
   color: #ffffff;
-  padding: 0 20px;
+  padding: 0 50px;
 }
-section.homebanner-main .homebanner .homebanner-title-text h1 {
+.homebanner-main .homebanner .homebanner-title-text h1 {
   font-weight: 900;
+  font-size: 90px;
+  line-height: 108px;
 }
-section.homebanner-main .homebanner .homebanner-title-text p {
+.homebanner-main .homebanner .homebanner-title-text p {
+  font-family: "Hind Siliguri", sans-serif;
   font-size: 18px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
-section.proud-text {
+.proud-text {
   background-color: #1c1f21;
-  padding: 60px 20px;
+  padding: 60px 50px;
 }
-section.proud-text h3 {
+.proud-text h3 {
   color: #ffffff;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   text-align: center;
   line-height: 28px;
   font-weight: 400;
 }
 
-section.people-card-section {
+.people-card-section {
   padding: 150px 0;
 }
-section.people-card-section .people-card-wrapper {
+.people-card-section .people-card-wrapper {
   width: 80%;
   margin: 0 auto;
   position: relative;
@@ -467,24 +474,30 @@ section.people-card-section .people-card-wrapper {
   align-items: center;
   padding: 20px 0;
 }
-section.people-card-section .people-card-wrapper .people-card {
+.people-card-section .people-card-wrapper .people-card {
   position: relative;
   margin-bottom: 50px;
 }
-section.people-card-section .people-card-wrapper .people-card::after {
+.people-card-section .people-card-wrapper .people-card::after {
   content: "";
   height: 1px;
-  width: 235%;
+  width: calc(100% + 1000px);
   background-color: #f1f2f7;
   position: absolute;
   bottom: 0%;
-  left: -66%;
+  left: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
-section.people-card-section .people-card-wrapper .people-card img {
+.people-card-section .people-card-wrapper .people-card img {
   margin-bottom: 50px;
   transition: 1s;
 }
-section.people-card-section .people-card-wrapper .people-card:nth-child(odd) .people-card-text {
+.people-card-section .people-card-wrapper .people-card:nth-child(odd) .people-card-text {
   right: -65%;
   top: 50%;
   transform: translateY(-50%);
@@ -493,7 +506,20 @@ section.people-card-section .people-card-wrapper .people-card:nth-child(odd) .pe
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-section.people-card-section .people-card-wrapper .people-card:nth-child(even) .people-card-text {
+.people-card-section .people-card-wrapper .people-card:nth-child(odd) a.linkedin {
+  position: absolute;
+  top: 0;
+  left: 102%;
+  font-size: 13px;
+}
+.people-card-section .people-card-wrapper .people-card:nth-child(odd) a.linkedin i {
+  color: #000000 !important;
+  transition: 0.3s;
+}
+.people-card-section .people-card-wrapper .people-card:nth-child(odd) a.linkedin:hover i {
+  color: #305af5 !important;
+}
+.people-card-section .people-card-wrapper .people-card:nth-child(even) .people-card-text {
   left: -65%;
   top: 50%;
   transform: translateY(-50%);
@@ -502,30 +528,49 @@ section.people-card-section .people-card-wrapper .people-card:nth-child(even) .p
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-section.people-card-section .people-card-wrapper .people-card .people-card-text {
+.people-card-section .people-card-wrapper .people-card:nth-child(even) a.linkedin {
+  position: absolute;
+  top: 0;
+  right: 102%;
+  font-size: 14px;
+}
+.people-card-section .people-card-wrapper .people-card:nth-child(even) a.linkedin i {
+  color: #000000 !important;
+  transition: 0.3s;
+}
+.people-card-section .people-card-wrapper .people-card:nth-child(even) a.linkedin:hover i {
+  color: #305af5 !important;
+}
+.people-card-section .people-card-wrapper .people-card .people-card-text {
   background-color: #ffffff;
   padding: 6%;
   position: absolute;
   bottom: 20%;
-  width: 90%;
+  width: 85%;
+  height: 200px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.25);
   transition: 1s;
 }
-section.people-card-section .people-card-wrapper .people-card .people-card-text h6 {
+.people-card-section .people-card-wrapper .people-card .people-card-text h6 {
+  font-family: "Poppins", sans-serif;
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   color: #d3d3d3 !important;
 }
-section.people-card-section .people-card-wrapper .people-card .people-card-text h4 {
+.people-card-section .people-card-wrapper .people-card .people-card-text h4 {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #000000;
   text-transform: capitalize;
   margin-bottom: 13px;
 }
-section.people-card-section .people-card-wrapper .people-card .people-card-text p {
+.people-card-section .people-card-wrapper .people-card .people-card-text p {
   font-family: "Hind Siliguri", sans-serif;
   color: #d3d3d3 !important;
   margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 24px;
 }/*# sourceMappingURL=style2.css.map */
