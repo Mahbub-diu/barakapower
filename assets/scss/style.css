@@ -1558,4 +1558,308 @@ header #navbar_top .container #main_nav ul.navbar-nav {
   text-align: center;
   border-radius: 50%;
   margin: 0 5px 0 0;
+}
+
+.carrer-banner-main {
+  background-image: url(../images/bg/bg-square-dots-22.png);
+  background-color: #00984a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 8em 0em 8em 0em;
+}
+.carrer-banner-main h2.hiring {
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+.carrer-banner-main h2.hiring::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 36%;
+  background-color: #fff;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.connectivity-main {
+  padding: 10em 0em 6em 0em;
+  background: #f7f5ff;
+}
+.connectivity-main .container {
+  max-width: 1140px;
+}
+.connectivity-main .connectivity-flex {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.connectivity-main .connectivity-flex .left-main {
+  width: 43.901%;
+}
+.connectivity-main .connectivity-flex .left-main .image-main-shape {
+  position: relative;
+}
+.connectivity-main .connectivity-flex .left-main .image-main-shape .blue-image {
+  left: 232px;
+  width: 300px;
+  max-width: 300px;
+  top: -30px;
+  position: absolute;
+}
+.connectivity-main .connectivity-flex .left-main .image-main-shape .blue-image img {
+  width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px 100px 30px 100px;
+}
+.connectivity-main .connectivity-flex .left-main .image-main-shape .main-img {
+  width: 100%;
+  position: relative;
+}
+.connectivity-main .connectivity-flex .left-main .image-main-shape .main-img img {
+  width: 100%;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 60px 100px 60px 100px;
+}
+.connectivity-main .connectivity-flex .right-main {
+  width: 56%;
+  padding: 0% 0% 0% 14%;
+}
+.connectivity-main .connectivity-flex .right-main .title-all h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.connectivity-main .connectivity-flex .right-main .title-all p.title-description {
+  color: #506690;
+  margin: 0em 0em 1em 0em;
+  font-size: 14px;
+}
+.connectivity-main .connectivity-flex .right-main .feature-list ul.nav li.nav-item {
+  margin: 0px 0px 16px 0px;
+  color: #161c2d;
+  font-size: 14px;
+}
+.connectivity-main .connectivity-flex .right-main .feature-list ul.nav li.nav-item .icon-box {
+  color: #6c41ff;
+  background-color: rgba(108, 65, 255, 0.1019607843);
+  font-size: 13px;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.connectivity-main .connectivity-flex .right-main .feature-list ul.nav li.nav-item .icon-box i {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+
+.what-say-main {
+  padding: 5em 0em 6em 0em;
+  background: #f7f5ff;
+}
+.what-say-main .container {
+  max-width: 1140px;
+}
+.what-say-main .what-flex {
+  display: flex;
+}
+.what-say-main .what-flex .left-box {
+  width: 60%;
+}
+.what-say-main .what-flex .left-box .what-say {
+  padding: 0% 12% 0% 0%;
+}
+.what-say-main .what-flex .left-box .what-say h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main {
+  margin-top: 20px;
+  margin-bottom: 0em;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-icon {
+  flex-basis: 8%;
+  margin: 16px 0px 0px 0px;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-msg {
+  width: 91.864%;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-msg .msg-box {
+  margin: 0% 0% 0% 2%;
+  padding: 10px;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-msg .msg-box p {
+  color: #506690;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: italic;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-msg .msg-box .title-box h5 {
+  color: #161c2d;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.what-say-main .what-flex .left-box .what-say .quote-main .quote-flex .quote-msg .msg-box .title-box p {
+  color: #161c2d;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-style: normal;
+}
+.what-say-main .what-flex .right-box {
+  width: 40%;
+}
+.what-say-main .what-flex .right-box .blue-bg {
+  margin: 0em -7em 0em -8em;
+  background-image: url(../images/bg/bg-mask-03.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.what-say-main .what-flex .right-box .blue-bg img {
+  -webkit-mask-image: url(../images/bg/bg-mask-03.png);
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  height: auto;
+  max-width: 100%;
+}
+
+.jobs-card-main {
+  padding: 5em 0em 3em 0em;
+  background: #f7f5ff;
+}
+.jobs-card-main .container {
+  max-width: 1140px;
+}
+.jobs-card-main .center-padding {
+  margin: 0px 0px 10px 0px;
+  padding: 0% 24% 0% 24%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+.jobs-card-main .center-padding h3 {
+  color: #161c2d;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.jobs-card-main .center-padding p {
+  color: #000000;
+}
+.jobs-card-main .card {
+  background: #fff;
+  border-radius: 12px 12px 12px 12px;
+  border: none;
+  margin-bottom: 20px;
+}
+.jobs-card-main .card .card-body {
+  padding: 10% 10% 8% 10%;
+}
+.jobs-card-main .card .card-body .job-title h3 {
+  margin-bottom: 10px;
+  color: #161c2d;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.jobs-card-main .card .card-body .post-name p {
+  margin-bottom: 20px;
+  color: #00984a;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.jobs-card-main .card .card-body .job-description {
+  border-top: 1px solid rgba(108, 65, 255, 0.1019607843);
+}
+.jobs-card-main .card .card-body .job-description p {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.jobs-card-main .card .card-body a.job-apply {
+  border-radius: 6px 6px 6px 6px;
+  background: #00984a;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  width: 100%;
+  text-transform: capitalize;
+  line-height: 1.4em;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 20px;
+}
+.jobs-card-main .card .card-body a.see-details {
+  color: #000;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+}
+
+.amazing-life {
+  background: #f7f5ff;
+  padding-bottom: 50px;
+  position: relative;
+}
+.amazing-life::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 320px;
+  content: "";
+  background: #00984a;
+}
+.amazing-life .container {
+  max-width: 1140px;
+}
+.amazing-life .center-padding {
+  margin: 0px 0px 10px 0px;
+  padding: 0% 24% 0% 24%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+.amazing-life .center-padding h3 {
+  color: #161c2d;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.amazing-life .life-box {
+  margin-bottom: 25px;
+  height: 295px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.amazing-life .life-box img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  min-height: 295px;
 }/*# sourceMappingURL=style.css.map */
