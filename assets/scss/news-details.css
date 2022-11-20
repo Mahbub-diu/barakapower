@@ -646,7 +646,7 @@ p {
   position: absolute;
   right: 8px;
   top: 10px;
-  z-index: 9999;
+  z-index: 1;
 }
 .news-content-main aside .widget .input-group .input-group-btn button {
   background-color: transparent;
