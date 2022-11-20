@@ -236,13 +236,13 @@ video {
   }
 }
 .sec-subtitle2 {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 15px;
   font-weight: 700;
   color: #00984a;
   display: block;
   text-transform: uppercase;
-  margin: -0.2em 0 10px 0;
+  margin: -0.2em 0 20px 0;
 }
 
 h2.sec-title {
@@ -683,6 +683,7 @@ header li.nav-item {
 header li.nav-item a.nav-link {
   text-transform: uppercase;
   color: #000000;
+  font-size: 18px;
 }
 header li.nav-item a.nav-link:hover {
   color: #00984a;
@@ -832,7 +833,7 @@ header #navbar_top .container #main_nav ul.navbar-nav {
 }
 
 .why-choose .container {
-  max-width: 1320px;
+  max-width: 1650px;
 }
 
 .space {
@@ -885,10 +886,6 @@ header #navbar_top .container #main_nav ul.navbar-nav {
 
 .our-journey .title-area {
   margin-bottom: 40px;
-}
-.our-journey .title-area .sec-subtitle2 {
-  font-size: 20px;
-  margin-bottom: 15px;
 }
 .our-journey .process-shape1 {
   position: absolute;
@@ -1002,6 +999,9 @@ header #navbar_top .container #main_nav ul.navbar-nav {
 .industry-leaders {
   position: relative;
   padding-top: 120px;
+}
+.industry-leaders .container {
+  max-width: 1650px;
 }
 .industry-leaders .about-shape1 {
   position: absolute;
@@ -1156,7 +1156,7 @@ header #navbar_top .container #main_nav ul.navbar-nav {
   /* the parent */
 }
 .news-main .container {
-  max-width: 1200px;
+  max-width: 1650px;
 }
 .news-main .post-creative {
   position: relative;
@@ -1284,6 +1284,9 @@ header #navbar_top .container #main_nav ul.navbar-nav {
   background: #fff;
   /* the parent */
 }
+.portfolio-main .container {
+  max-width: 1650px;
+}
 .portfolio-main .card {
   padding: 10px;
   border-radius: 10px;
@@ -1292,6 +1295,7 @@ header #navbar_top .container #main_nav ul.navbar-nav {
 }
 .portfolio-main .card img {
   border-radius: 10px;
+  width: 100%;
 }
 .portfolio-main .card .card-body {
   padding: 10px 20px 5px 15px;

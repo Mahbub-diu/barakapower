@@ -69,7 +69,7 @@ $('.newsslider-wrapper').slick({
   autoplay: true,
   arrows: true,
   speed: 300,
-  slidesToShow: 2,
+  slidesToShow: 3,
   slidesToScroll: 1,
   prevArrow:
     "<button type='button' class='slick-prev'><i class='fa-solid fa-arrow-left'></i></button>",

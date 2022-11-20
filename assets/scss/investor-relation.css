@@ -236,13 +236,13 @@ video {
   }
 }
 .sec-subtitle2 {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 15px;
   font-weight: 700;
   color: #00984a;
   display: block;
   text-transform: uppercase;
-  margin: -0.2em 0 10px 0;
+  margin: -0.2em 0 20px 0;
 }
 
 h2.sec-title {

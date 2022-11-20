@@ -207,6 +207,8 @@ header {
     a.nav-link {
       text-transform: uppercase;
       color: $title-color;
+      font-size: 18px;
+
       &:hover {
         color: $theme-color;
       }
@@ -361,9 +363,10 @@ header {
 
 .why-choose {
   .container {
-    max-width: 1320px;
+    max-width: 1650px;
   }
 }
+
 .space {
   padding: 120px 0;
   .feature-multi2 {
@@ -410,8 +413,8 @@ header {
   .title-area {
     margin-bottom: calc($section-title-space - 40px);
     .sec-subtitle2 {
-      font-size: 20px;
-      margin-bottom: 15px;
+      // font-size: 20px;
+      // margin-bottom: 15px;
     }
   }
   .process-shape1 {
@@ -511,6 +514,7 @@ header {
     }
   }
 }
+
 .top-half {
   margin: 50px 0px !important;
   .cta-shape3 {
@@ -529,6 +533,11 @@ header {
 .industry-leaders {
   position: relative;
   padding-top: 120px;
+
+  .container{
+    max-width: 1650px;
+  }
+
   .about-shape1 {
     position: absolute;
     right: 0;
@@ -684,7 +693,7 @@ header {
   background-color: #f5f5f5;
   padding: 90px 0;
   .container {
-    max-width: 1200px;
+    max-width: 1650px;
   }
   .post-creative {
     position: relative;
@@ -814,6 +823,10 @@ header {
   padding: 50px 0;
   background: #fff;
 
+  .container{
+    max-width: 1650px;
+  }
+
   .card {
     padding: 10px;
     border-radius: 10px;
@@ -822,6 +835,7 @@ header {
     border-color: #e9ebf3;
     img {
       border-radius: 10px;
+      width: 100%;
     }
     .card-body {
       padding: 10px 20px 5px 15px;
@@ -1111,6 +1125,7 @@ header {
     }
   }
 }
+
 .carrer-banner-main {
   background-image: url(../images/bg/bg-square-dots-22.png);
   background-color: $theme-color;
@@ -1143,6 +1158,7 @@ header {
     }
   }
 }
+
 .connectivity-main {
   padding: 10em 0em 6em 0em;
   background: #f7f5ff;
@@ -1227,6 +1243,7 @@ header {
     }
   }
 }
+
 .what-say-main {
   padding: 5em 0em 6em 0em;
   background: #f7f5ff;
