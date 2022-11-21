@@ -1,0 +1,95 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/classes";
+@import "partials/color";
+@import "partials/common";
+
+.news-banner-main {
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+
+  .news-banner-content {
+    height: 350px;
+    h1 {
+      color: $white-color;
+    }
+    .breadcrumb {
+      nav {
+        ol {
+          li {
+            color: $white-color;
+            a {
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.body-content-main {
+  padding: 80px 0;
+  min-height: 800px;
+
+  .body-content-title {
+    margin-bottom: 50px;
+    h2 {
+      color: $theme-color;
+    }
+  }
+
+  nav {
+    .nav-tabs {
+      border-bottom: 1px solid #1fa66e;
+      .nav-link {
+        background-color: #1fa66e;
+        color: $white-color;
+        border-color: $white-color $white-color #1fa66e !important;
+      }
+      .nav-link.active {
+        background: linear-gradient(to top, #1fa66e, #7dd56f);
+        border-color: $white-color $white-color #1fa66e !important;
+        // color: $theme-color;
+      }
+    }
+  }
+
+  .tab-content {
+    padding: 50px;
+    table {
+      background: #11998e;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      thead {
+        background-color: rgba(255,255,255,.32);
+        tr {
+          th {
+            color: $white-color;
+            padding: 10px 20px;
+          }
+        }
+      }
+      tbody {
+        
+        tr {
+          &:hover{
+            background-color: rgba(255,255,255,.32);
+          }
+          td {
+            color: $white-color;
+            padding: 10px 20px;
+            a {
+              color: $white-color;
+              &:hover {
+                color: #1fa66e;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
