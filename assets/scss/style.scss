@@ -185,6 +185,7 @@ header {
       padding: 22px 40px;
       border-radius: 9999px;
       z-index: 1;
+      height: unset !important;
       &::before {
         @include vs-btn-before;
         color: $theme-color;
@@ -413,7 +414,6 @@ header {
 .our-journey {
   .title-area {
     margin-bottom: calc($section-title-space - 40px);
-     
   }
   .process-shape1 {
     position: absolute;

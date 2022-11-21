@@ -649,6 +649,7 @@ header .navbar .vs-btn {
   padding: 22px 40px;
   border-radius: 9999px;
   z-index: 1;
+  height: unset !important;
 }
 header .navbar .vs-btn::before {
   content: "";
