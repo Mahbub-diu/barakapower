@@ -434,52 +434,67 @@ p {
   color: #ffffff;
 }
 
-.body-content-main {
+.investor-content-main {
   padding: 80px 0;
   min-height: 800px;
 }
-.body-content-main .body-content-title {
+.investor-content-main .investor-content-title {
   margin-bottom: 50px;
 }
-.body-content-main .body-content-title h2 {
+.investor-content-main .investor-content-title h2 {
   color: #00984a;
 }
-.body-content-main nav .nav-tabs {
-  border-bottom: 1px solid #1fa66e;
+.investor-content-main .investor-content-wrapper {
+  border-top: 1px solid #1fa66e;
 }
-.body-content-main nav .nav-tabs .nav-link {
+.investor-content-main .investor-content-wrapper .col-lg-10 {
+  border: 1px solid;
+  border-color: transparent #1fa66e #1fa66e #1fa66e;
+}
+.investor-content-main .investor-content-wrapper .nav {
+  flex-direction: column;
+}
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link {
   background-color: #1fa66e;
   color: #ffffff;
-  border-color: #ffffff #ffffff #1fa66e !important;
+  border-color: transparent transparent #1fa66e #1fa66e;
+  border-radius: 0;
+  padding: 15px 0;
+  transition: 0.5s;
+  font-weight: 600;
 }
-.body-content-main nav .nav-tabs .nav-link.active {
-  background: linear-gradient(to top, #1fa66e, #7dd56f);
-  border-color: #ffffff #ffffff #1fa66e !important;
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link:hover {
+  background: #ffffff;
+  color: #00984a;
 }
-.body-content-main .tab-content {
-  padding: 50px;
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link.active {
+  background: #ffffff;
+  color: #00984a;
 }
-.body-content-main .tab-content table {
-  background: #11998e; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.investor-content-main .investor-content-wrapper .tab-content {
+  padding: 12px 0;
+  transition: 0.5s;
 }
-.body-content-main .tab-content table thead {
-  background-color: rgba(255, 255, 255, 0.32);
+.investor-content-main .investor-content-wrapper .tab-content table {
+  border: none;
 }
-.body-content-main .tab-content table thead tr th {
-  color: #ffffff;
+.investor-content-main .investor-content-wrapper .tab-content table thead {
+  border-bottom: 2px solid #00984a;
+}
+.investor-content-main .investor-content-wrapper .tab-content table thead tr th {
+  color: #00984a;
   padding: 10px 20px;
 }
-.body-content-main .tab-content table tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.32);
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr {
+  transition: 0.5s;
 }
-.body-content-main .tab-content table tbody tr td {
-  color: #ffffff;
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr:hover {
+  background-color: rgba(31, 166, 110, 0.2);
+}
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr td {
+  color: #999999;
   padding: 10px 20px;
 }
-.body-content-main .tab-content table tbody tr td a {
-  color: #ffffff;
-}
-.body-content-main .tab-content table tbody tr td a:hover {
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr td a:hover {
   color: #1fa66e;
 }/*# sourceMappingURL=investor-relation.css.map */
