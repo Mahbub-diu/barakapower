@@ -2061,6 +2061,10 @@ li.nav-item.dropdown:hover .dropdown-menu {
 .our-concern-main .our-concern-text p {
   text-align: justify;
 }
+.our-concern-main .our-concern-text .our-concern-img {
+  width: 60%;
+  padding: 0 18px 8px 0;
+}
 .our-concern-main table {
   border: none;
 }
