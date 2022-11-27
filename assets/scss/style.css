@@ -684,6 +684,7 @@ header li.nav-item a.nav-link {
   text-transform: uppercase;
   color: #000000;
   font-size: 18px;
+  font-weight: 500;
 }
 header li.nav-item a.nav-link:hover {
   color: #00984a;
