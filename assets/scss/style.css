@@ -1909,4 +1909,282 @@ li.nav-item.dropdown:hover .dropdown-menu {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   min-height: 295px;
+}
+
+.investor-content-main {
+  padding: 80px 0;
+  min-height: 800px;
+}
+.investor-content-main .investor-content-title {
+  margin-bottom: 50px;
+}
+.investor-content-main .investor-content-title h2 {
+  color: #00984a;
+}
+.investor-content-main .investor-content-wrapper {
+  border-top: 1px solid #1fa66e;
+}
+.investor-content-main .investor-content-wrapper .col-lg-10 {
+  border: 1px solid;
+  border-color: transparent #1fa66e #1fa66e #1fa66e;
+}
+.investor-content-main .investor-content-wrapper .nav {
+  flex-direction: column;
+}
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link {
+  background-color: #1fa66e;
+  color: #ffffff;
+  border-color: transparent transparent #1fa66e #1fa66e;
+  border-radius: 0;
+  padding: 15px 0;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link:hover {
+  background: #ffffff;
+  color: #00984a;
+}
+.investor-content-main .investor-content-wrapper .nav .nav-tabs .nav-link.active {
+  background: #ffffff;
+  color: #00984a;
+}
+.investor-content-main .investor-content-wrapper .tab-content {
+  padding: 12px 0;
+  transition: 0.5s;
+}
+.investor-content-main .investor-content-wrapper .tab-content table {
+  border: none;
+}
+.investor-content-main .investor-content-wrapper .tab-content table thead {
+  border-bottom: 2px solid #00984a;
+}
+.investor-content-main .investor-content-wrapper .tab-content table thead tr th {
+  color: #00984a;
+  padding: 10px 20px;
+}
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr {
+  transition: 0.5s;
+}
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr:hover {
+  background-color: rgba(31, 166, 110, 0.2);
+}
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr td {
+  color: #999999;
+  padding: 10px 20px;
+}
+.investor-content-main .investor-content-wrapper .tab-content table tbody tr td a:hover {
+  color: #1fa66e;
+}
+
+.member-card-main {
+  padding: 80px 0;
+}
+.member-card-main .member-card-title {
+  margin-bottom: 50px;
+}
+.member-card-main .member-card-title p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.member-card-main .member-card {
+  max-height: 450px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.member-card-main .member-card .card-body {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -60px;
+  transition: 1s;
+}
+.member-card-main .member-card .card-body::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(45deg);
+}
+.member-card-main .member-card .card-body .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #00984a;
+}
+.member-card-main .member-card .card-body .card-text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #999999;
+}
+.member-card-main .member-card .card-body nav.nav a.nav-link {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 20px;
+}
+.member-card-main .member-card .card-body nav.nav .nav-link.facebook {
+  color: #4267B2;
+}
+.member-card-main .member-card .card-body nav.nav .nav-link.twitter {
+  color: #00acee;
+}
+.member-card-main .member-card .card-body nav.nav .nav-link.linkedin {
+  color: #0072b1;
+}
+.member-card-main .member-card .card-body nav.nav .nav-link.pinterest {
+  color: #c8232c;
+}
+.member-card-main .member-card:hover .card-body {
+  bottom: 0;
+}
+
+.our-concern-main {
+  padding: 80px 0 0 0;
+}
+.our-concern-main .our-concern-title {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.our-concern-main .our-concern-text p {
+  text-align: justify;
+}
+.our-concern-main .our-concern-text .our-concern-img {
+  width: 60%;
+  padding: 0 18px 8px 0;
+}
+.our-concern-main table {
+  border: none;
+}
+.our-concern-main table thead {
+  border-bottom: 2px solid #00984a;
+}
+.our-concern-main table thead tr th {
+  color: #00984a;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.our-concern-main table tbody tr {
+  transition: 0.5s;
+}
+.our-concern-main table tbody tr td {
+  color: #999999;
+  padding: 10px 20px;
+  height: 60px;
+  vertical-align: middle;
+}
+.our-concern-main table tbody tr td.title {
+  border-left: none;
+}
+.our-concern-main table tbody tr td.information {
+  border-right: none;
+}
+.our-concern-main .success-milstone .main-timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.our-concern-main .success-milstone .main-timeline .timeline {
+  width: calc(50% + 58px);
+  border-top: 2px solid #404247;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:before {
+  content: "";
+  background: #404247;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+.our-concern-main .success-milstone .main-timeline .timeline-content {
+  color: #404247;
+  text-align: center;
+  padding: 40px 100px 40px 10px;
+  display: block;
+  position: relative;
+}
+.our-concern-main .success-milstone .main-timeline .timeline-content:hover {
+  text-decoration: none;
+}
+.our-concern-main .success-milstone .main-timeline .timeline-content:before {
+  content: "";
+  background: #00a6f9;
+  width: 15px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+.our-concern-main .success-milstone .main-timeline .timeline-year {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700;
+  transform: translateY(-50%) rotate(90deg);
+  position: absolute;
+  top: 50%;
+  right: -25px;
+}
+.our-concern-main .success-milstone .main-timeline .title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.our-concern-main .success-milstone .main-timeline .description {
+  font-size: 16px;
+  margin: 0;
+  text-align: justify;
+  text-align: center;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(even) {
+  float: right;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(even):before {
+  right: auto;
+  left: 0;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(even) .timeline-content {
+  padding: 40px 10px 40px 100px;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(even) .timeline-content:before {
+  right: auto;
+  left: 51px;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(even) .timeline-year {
+  right: auto;
+  left: -25px;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(4n+2) .timeline-content:before {
+  background: #ff3e7c;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(4n+3) .timeline-content:before {
+  background: #7438be;
+}
+.our-concern-main .success-milstone .main-timeline .timeline:nth-child(4n+4) .timeline-content:before {
+  background: #bdc203;
+}
+@media screen and (max-width: 767px) {
+  .our-concern-main .success-milstone .main-timeline .timeline {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
