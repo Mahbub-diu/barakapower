@@ -1912,17 +1912,20 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   background-position: center center !important;
   background-size: cover !important;
 }
-.news-banner-main .news-banner-content-2 {
-  height: 350px;
+.news-banner-main .news-banner-content {
+  height: 220px;
 }
-.news-banner-main .news-banner-content-2 h1 {
+.news-banner-main .news-banner-content h1 {
   color: #ffffff;
 }
-.news-banner-main .news-banner-content-2 .breadcrumb nav ol li {
+.news-banner-main .news-banner-content .breadcrumb nav ol li {
   color: #ffffff;
 }
-.news-banner-main .news-banner-content-2 .breadcrumb nav ol li a {
+.news-banner-main .news-banner-content .breadcrumb nav ol li a {
   color: #ffffff;
+}
+.news-banner-main .investor-banner-content {
+  height: 350px !important;
 }
 
 .body-content-main {
@@ -1973,24 +1976,6 @@ header li.nav-item.dropdown:hover .dropdown-menu {
 }
 .body-content-main .tab-content table tbody tr td a:hover {
   color: #1fa66e;
-}
-
-.news-banner-main {
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-  background-size: cover !important;
-}
-.news-banner-main .news-banner-content {
-  height: 220px;
-}
-.news-banner-main .news-banner-content h1 {
-  color: #ffffff;
-}
-.news-banner-main .news-banner-content .breadcrumb nav ol li {
-  color: #ffffff;
-}
-.news-banner-main .news-banner-content .breadcrumb nav ol li a {
-  color: #ffffff;
 }
 
 .news-content-main {
@@ -2782,16 +2767,16 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   font-size: 20px;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.facebook {
-  color: red;
+  color: #4267B2;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.twitter {
-  color: red;
+  color: #00acee;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.linkedin {
-  color: red;
+  color: #0072b1;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.pinterest {
-  color: red;
+  color: #c8232c;
 }
 .member-card-main .member-card:hover .card-body {
   bottom: 0;
