@@ -2327,20 +2327,44 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   color: #00984a;
   font-size: 18px;
 }
-.news-content-main aside .widget-post-wrapper .widget-post {
+.news-content-main aside .widget .widget-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  line-height: 12px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.news-content-main aside .widget .widget-title::after {
+  border-radius: 0;
+  bottom: -2px;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  vertical-align: bottom;
+  width: 55px;
+  background-color: #00984a;
+}
+.news-content-main aside .widget-post {
   display: flex;
   margin-bottom: 20px;
 }
-.news-content-main aside .widget-post-wrapper .widget-post .widget-post-image {
+.news-content-main aside .widget-post .widget-post-image {
   max-width: 125px;
 }
-.news-content-main aside .widget-post-wrapper .widget-post .widget-post-info {
+.news-content-main aside .widget-post .widget-post-info {
   margin-left: 10px;
 }
-.news-content-main aside .widget-post-wrapper .widget-post .widget-post-info .widget-post-meta ul {
+.news-content-main aside .widget-post .widget-post-info .widget-post-meta ul {
   font-size: 13px;
 }
-.news-content-main aside .widget-post-wrapper .widget-post .widget-post-info .widget-post-header h6.post-title {
+.news-content-main aside .widget-post .widget-post-info .widget-post-header h6.post-title {
   font-family: "poppins", sans-serif;
   line-height: 20px;
   margin-bottom: 8px;
@@ -2349,15 +2373,17 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   font-size: 15px;
   font-weight: 600;
 }
-.news-content-main aside .widget-post-wrapper .widget-post .widget-post-info .widget-post-header h6.post-title a {
+.news-content-main aside .widget-post .widget-post-info .widget-post-header h6.post-title a {
   color: #404040;
 }
 .news-content-main aside .widget-newsletter {
-  background-color: #f5f6f7;
-  padding: 20px;
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+.news-content-main aside .widget-newsletter .news-box {
+  background-color: #f5f6f7;
+  padding: 20px;
 }
 .news-content-main aside .widget-newsletter .news-box p {
   font-style: italic;

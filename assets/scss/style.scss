@@ -2040,9 +2040,34 @@ header {
           }
         }
       }
+
+      .widget-title {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        margin-bottom: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 600;
+        line-height: 12px;
+        position: relative;
+        text-transform: uppercase;
+        font-size: 18px;
+    
+        &::after {
+          border-radius: 0;
+          bottom: -2px;
+          content: '';
+          display: inline-block;
+          height: 3px;
+          left: 0;
+          margin: 0;
+          position: absolute;
+          vertical-align: bottom;
+          width: 55px;
+          background-color: $theme-color;
+        }
+      }
     }
 
-    .widget-post-wrapper {
       .widget-post {
         display: flex;
         margin-bottom: 20px;
@@ -2072,15 +2097,14 @@ header {
           }
         }
       }
-    }
 
     .widget-newsletter {
-      background-color: #f5f6f7;
-      padding: 20px;
       position: relative;
       z-index: 1;
       overflow: hidden;
       .news-box {
+        background-color: #f5f6f7;
+        padding: 20px;
         p {
           font-style: italic;
         }
