@@ -688,6 +688,7 @@ header li.nav-item a.nav-link {
 }
 header li.nav-item a.nav-link:hover {
   color: #00984a;
+  cursor: pointer;
 }
 header li.nav-item a.nav-link.active {
   color: #00984a;

@@ -215,6 +215,7 @@ header {
 
       &:hover {
         color: $theme-color;
+        cursor: pointer;
       }
     }
 
@@ -222,6 +223,7 @@ header {
       color: $theme-color;
     }
   }
+
   #navbar_top {
     .container {
       display: unset !important;
