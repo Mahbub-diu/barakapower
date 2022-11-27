@@ -1533,6 +1533,11 @@ header {
               color: $white-color;
             }
           }
+          .breadcrumb-item{
+            &::before{
+              color: #ffffff;
+            }
+          }
         }
       }
     }
@@ -1615,7 +1620,6 @@ header {
     }
   }
 }
-
 
 .news-content-main {
   padding: $section-space-mobile 0;

@@ -1926,6 +1926,9 @@ header li.nav-item.dropdown:hover .dropdown-menu {
 .news-banner-main .news-banner-content .breadcrumb nav ol li a {
   color: #ffffff;
 }
+.news-banner-main .news-banner-content .breadcrumb nav ol .breadcrumb-item::before {
+  color: #ffffff;
+}
 .news-banner-main .investor-banner-content {
   height: 350px !important;
 }
