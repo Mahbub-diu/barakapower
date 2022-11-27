@@ -1,0 +1,100 @@
+@mixin transY-center {
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@mixin transX-center {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+@mixin trans-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+@mixin vs-btn {
+  position: relative;
+  display: inline-block;
+  border: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 22px 40px;
+  border-radius: 9999px;
+  z-index: 1;
+  background-color: $theme-color;
+  color: $white-color;
+  font-family: $title-font;
+  height: 64px;
+}
+@mixin vs-btn-before {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  background-color: $white-color;
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.2);
+  transition: all ease 0.4s;
+}
+@mixin homeslider-slick-arrow {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  background: #fff;
+  border: 0;
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+  font-size: 15px;
+  line-height: 100px;
+  padding: 0;
+  text-align: center;
+  @include circle-radious;
+  left: 136px;
+  z-index: 2;
+}
+@mixin circle-radious {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@mixin feature-style2 {
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 50%;
+  padding: 5px 0 0 0;
+}
+@mixin no-radious {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}

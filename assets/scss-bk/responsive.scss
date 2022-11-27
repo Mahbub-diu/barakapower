@@ -1,0 +1,67 @@
+@media (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .pe-lg-5 {
+    padding-right: 3rem !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .gx-60 {
+    --bs-gutter-x: 60px;
+  }
+}
+
+@media (min-width: 576px) {
+  // .homebanner-main{
+  //   .homebanner{
+  //     min-height: 350px;
+  //     .homebanner-title-text{
+  //       h1 {
+  //         font-size: 50px;
+  //         line-height: 50px;
+  //       }
+  //       p {
+  //         font-size: 18px;
+  //         font-weight: 300px;
+  //         line-height: 30px;
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
