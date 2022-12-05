@@ -2512,7 +2512,7 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   height: 100%;
 }
 .homebanner-main .homebanner {
-  background: url("../images/people/chairman-1.png");
+  background: url("../images/people/1. MR. FAISAL AHMED CHOWDHURY, Chairman - Baraka Group.jpg");
   min-height: 1000px;
   width: 100%;
   background-size: cover;
@@ -2585,6 +2585,7 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   -o-transform: translateX(-50%);
 }
 .people-card-section .people-card-wrapper .people-card img {
+  width: 768px;
   margin-bottom: 50px;
   transition: 1s;
 }
