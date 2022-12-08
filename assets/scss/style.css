@@ -1959,8 +1959,11 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   padding: 50px;
 }
 .body-content-main .tab-content table {
-  background: #11998e; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #11998e;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #38ef7d, #11998e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .body-content-main .tab-content table thead {
   background-color: rgba(255, 255, 255, 0.32);
@@ -2531,7 +2534,7 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   height: 100%;
   -webkit-clip-path: polygon(0% 0%, 51% 0%, 100% 100%, 46.75% 100%);
           clip-path: polygon(0% 0%, 51% 0%, 100% 100%, 46.75% 100%);
-  background-color: rgba(0, 152, 73, 0.5254901961);
+  background-color: rgba(0, 152, 73, 0.4039215686);
 }
 .homebanner-main .homebanner .homebanner-title-text {
   color: #ffffff;
@@ -2541,8 +2544,20 @@ header li.nav-item.dropdown:hover .dropdown-menu {
 .homebanner-main .homebanner .homebanner-title-text h1 {
   font-weight: 900;
   font-size: 8em;
-  line-height: 150px;
+  line-height: 120px;
   text-transform: uppercase;
+  position: relative;
+  margin-bottom: 50px;
+}
+.homebanner-main .homebanner .homebanner-title-text h1::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 8px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -25px;
+  left: 8px;
 }
 .homebanner-main .homebanner .homebanner-title-text p {
   font-family: "Hind Siliguri", sans-serif;
