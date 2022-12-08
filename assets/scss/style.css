@@ -2543,7 +2543,7 @@ header li.nav-item.dropdown:hover .dropdown-menu {
 }
 .homebanner-main .homebanner .homebanner-title-text h1 {
   font-weight: 900;
-  font-size: 8em;
+  font-size: 8rem;
   line-height: 120px;
   text-transform: uppercase;
   position: relative;
