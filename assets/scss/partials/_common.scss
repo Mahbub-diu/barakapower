@@ -10,6 +10,7 @@ body {
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   color: $body-color;
+  position: relative;
 }
 
 input:focus {
@@ -148,7 +149,6 @@ h6 {
     -webkit-animation-duration: 1.1s;
     animation-duration: 1.1s;
   }
-  
 }
 
 @-webkit-keyframes loaderfill {
@@ -372,4 +372,138 @@ p {
   border: none;
   padding-bottom: 0;
   background-color: rgba(0, 0, 0, 0);
+}
+.fixed-share-main {
+  position: fixed;
+  left: 20px;
+  width: auto;
+  height: auto;
+  z-index: 99;
+  bottom: 30px;
+  overflow: hidden;
+  transition: 1s;
+  .share-toggleer {
+    height: 50px;
+    width: 50px;
+    @include circle-radious;
+    background: $theme-color-red;
+    a.share-parent {
+      position: relative;
+      overflow: auto;
+      transition: 0.1s;
+      text-decoration: none;
+      color: #fff;
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    ul.nav {
+      position: absolute;
+      left: 0px;
+      bottom: 50px;
+      transition: 1s;
+
+      li.nav-item {
+        a.nav-link {
+          transition: all 0.2s ease-in-out;
+          padding: 0;
+          height: 50px;
+          width: 50px;
+          margin: 5px 0;
+          color: #fff;
+          font-size: 18px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: yellow;
+          @include circle-radious;
+          transition: 0.5s;
+          -webkit-animation: fade-out 1s both;
+          animation: fade-out 1s both;
+        }
+      }
+      $colors: (
+        '1': $facebook-color,
+        '2': $twitter-color,
+        '3': $instagram,
+        '4': $linkedin-color,
+      );
+
+      @each $key, $val in $colors {
+        li.nav-item:nth-child(#{$key}) {
+          a.nav-link {
+            background: #{$val} !important
+            ;
+          }
+        }
+      }
+    }
+    &:hover {
+      a.share-parent {
+        i {
+          transform: rotateX(360deg);
+          -webkit-transform: rotateX(360deg);
+          -moz-transform: rotateX(360deg);
+          -ms-transform: rotateX(360deg);
+          -o-transform: rotateX(360deg);
+          transition: all 0.9s ease 0s;
+        }
+      }
+    }
+  }
+  &:hover {
+    overflow: visible;
+    transition: 1s;
+    ul.nav {
+      li.nav-item {
+        a.nav-link {
+          -webkit-animation: fade-in-bottom 0.6s both;
+          animation: fade-in-bottom 0.6s both;
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

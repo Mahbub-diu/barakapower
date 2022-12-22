@@ -10,6 +10,7 @@ body {
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   color: #555555;
+  position: relative;
 }
 
 input:focus {
@@ -416,6 +417,130 @@ p {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.fixed-share-main {
+  position: fixed;
+  left: 20px;
+  width: auto;
+  height: auto;
+  z-index: 99;
+  bottom: 30px;
+  overflow: hidden;
+  transition: 1s;
+}
+.fixed-share-main .share-toggleer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #ee2028;
+}
+.fixed-share-main .share-toggleer a.share-parent {
+  position: relative;
+  overflow: auto;
+  transition: 0.1s;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fixed-share-main .share-toggleer ul.nav {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  transition: 1s;
+}
+.fixed-share-main .share-toggleer ul.nav li.nav-item a.nav-link {
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: yellow;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-animation: fade-out 1s both;
+  animation: fade-out 1s both;
+}
+.fixed-share-main .share-toggleer ul.nav li.nav-item:nth-child(1) a.nav-link {
+  background: #4267b2 !important;
+}
+.fixed-share-main .share-toggleer ul.nav li.nav-item:nth-child(2) a.nav-link {
+  background: #00acee !important;
+}
+.fixed-share-main .share-toggleer ul.nav li.nav-item:nth-child(3) a.nav-link {
+  background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%) !important;
+}
+.fixed-share-main .share-toggleer ul.nav li.nav-item:nth-child(4) a.nav-link {
+  background: #0072b1 !important;
+}
+.fixed-share-main .share-toggleer:hover a.share-parent i {
+  transform: rotateX(360deg);
+  -webkit-transform: rotateX(360deg);
+  -moz-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+  -o-transform: rotateX(360deg);
+  transition: all 0.9s ease 0s;
+}
+.fixed-share-main:hover {
+  overflow: visible;
+  transition: 1s;
+}
+.fixed-share-main:hover ul.nav li.nav-item a.nav-link {
+  -webkit-animation: fade-in-bottom 0.6s both;
+  animation: fade-in-bottom 0.6s both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .homeslider-main {
   width: 100%;
   position: relative;
@@ -2826,7 +2951,7 @@ header li.nav-item.dropdown:hover .dropdown-menu {
   font-size: 20px;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.facebook {
-  color: #4267B2;
+  color: #4267b2;
 }
 .member-card-main .member-card .card-body nav.nav .nav-link.twitter {
   color: #00acee;
