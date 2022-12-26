@@ -417,13 +417,14 @@ p {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: yellow;
+          background: $theme-color-red;
           @include circle-radious;
           transition: 0.5s;
           -webkit-animation: fade-out 1s both;
           animation: fade-out 1s both;
         }
       }
+
       $colors: (
         '1': $facebook-color,
         '2': $twitter-color,
