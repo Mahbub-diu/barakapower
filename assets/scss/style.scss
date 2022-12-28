@@ -2167,6 +2167,30 @@ header {
             p {
               font-size: 14px;
             }
+            a.comment-reply-toggle {
+              color: $title-color;
+            }
+          }
+          .comment-reply-card {
+            margin: 20px 0;
+            .form-control {
+              border-color: #ebedf2;
+              @include no-radious;
+              &:focus {
+                box-shadow: none;
+                outline: none;
+              }
+            }
+            .comment-reply-btn {
+              background: $theme-color;
+              border: none;
+              outline: none;
+              text-transform: capitalize;
+              min-width: 250px;
+              @include no-radious;
+              margin-top: 20px;
+              color: #fff;
+            }
           }
         }
       }
